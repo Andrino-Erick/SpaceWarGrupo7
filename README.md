@@ -19,7 +19,7 @@ Descargar desde Git
   git clone https://github.com/Andrino-Erick/SpaceWarGrupo7.git
   cd SpaceWarGrupo7
   npm install
-  node index.js
+  node server.js
 ```
 y luego Ingresar: http://localhost:3000/
   
