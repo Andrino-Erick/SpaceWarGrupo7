@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">		
+
+	<title>Space War</title>
+
+</head>
+
+<body>
+
+	<div class="container h-100">
+		
+		<div id="myGame" class="row h-100 justify-content-center align-items-center">
+
+		<div id="prompt" class="name-prompt text-center">
+
+		<div class="input-group">
+	      <input id="player-name" type="text" class="form-control center-block" placeholder="nick name" autocomplete="off">
+	  </div>
+	  <div class="ship-select">
+
+	    <span class="badge badge-dark">Selecciona una Nave</span>
+
+	      <ul class="ship-selection">
+
+	      		<li class="selected" data-ship="1">
+	      			<img src="assets/ship_blue.png" width="60" height="60">
+	      		</li>
+
+	      		<li data-ship="2">
+	      			<img src="assets/ship_orange.png" width="60" height="60">
+	      		</li>
+
+	      		<li data-ship="3">
+	      			<img src="assets/ship_black.png" width="60" height="60">
+	      		</li>
+
+						<li data-ship="4">
+	      			<img src="assets/ship_green.png" width="60" height="60">
+	      		</li>
+
+	      </ul>
+    </div>
+
+		<span class="input-group-btn">
+			<input id="play" class="btn" type="submit" value="PLAY">
+		</span>
+
+		</div>	
+
+  	</div>
+
+	</div>	
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser-ce/2.10.5/phaser.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/game.js"></script>
+
+</body>
+</html>

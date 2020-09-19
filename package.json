@@ -1,0 +1,21 @@
+{
+  "name": "game_phaser",
+  "version": "1.0.0",
+  "description": "game multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+	"scripts":{
+		"start": "node server.js"	
+  },
+  "engines": {
+    "node": "*"	
+  }
+}
